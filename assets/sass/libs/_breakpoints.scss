@@ -127,7 +127,7 @@
 							}
 
 						// Min only.
-							@else if ($y == null) {
+							@elseif ($y == null) {
 
 								// Greater than or equal (>= x)
 									@if ($op == 'gte') {
